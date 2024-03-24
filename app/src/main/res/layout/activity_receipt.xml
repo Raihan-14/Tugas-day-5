@@ -10,7 +10,7 @@
         android:id="@+id/textViewTitleReceipt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Struk Pembelian"
+        android:text="@string/Transaksi"
         android:textSize="24sp"
         android:layout_gravity="center"/>
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAY5</string>
+    <string name="Item">Kode Barang</string>
+    <string name="member_emas">Emas</string>
+    <string name="member_perak">Perak</string>
+    <string name="member_biasa">Biasa</string>
+    <string name="Proses">Proses</string>
+    <string name="Jumlah">Jumlah barang</string>
+</resources>

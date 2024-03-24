@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">DAY5</string>
+    <string name="app_name" translatable="false">DAY5</string>
+    <string name="Item">Item List</string>
+    <string name="member_emas">Gold</string>
+    <string name="member_perak">Silver</string>
+    <string name="member_biasa">Reguler</string>
+    <string name="Jumlah">Number of items</string>
+    <string name="Proses">Process</string>
+    <string name="Transaksi">Todays Transaction</string>
 </resources>

@@ -10,7 +10,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daftar Barang"
+        android:text="@string/app_name"
         android:textSize="24sp"
         android:layout_marginBottom="16dp"/>
 
@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah: "
+            android:text="@string/Jumlah"
             android:textSize="18sp"/>
 
         <EditText
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah: "
+            android:text="@string/Jumlah"
             android:textSize="18sp"/>
 
         <EditText
@@ -85,7 +85,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah: "
+            android:text="@string/Jumlah"
             android:textSize="18sp"/>
 
         <EditText
@@ -108,26 +108,26 @@
             android:id="@+id/radioButtonGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gold" />
+            android:text="@string/member_emas" />
 
         <RadioButton
             android:id="@+id/radioButtonSilver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Silver" />
+            android:text="@string/member_perak" />
 
         <RadioButton
             android:id="@+id/radioButtonNormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Normal" />
+            android:text="@string/member_biasa" />
     </RadioGroup>
 
     <Button
         android:id="@+id/btnBuy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Beli"
+        android:text="@string/Proses"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>
