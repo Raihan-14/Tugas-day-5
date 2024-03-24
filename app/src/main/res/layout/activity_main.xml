@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Barang"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PCO - Rp 2.730.551"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextQuantity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O17 - Rp 2.500.999"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextQuantity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OAS - Rp 1.989.123"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextQuantity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
