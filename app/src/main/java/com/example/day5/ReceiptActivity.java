@@ -11,6 +11,7 @@ public class ReceiptActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_receipt);
 
+
         int totalPrice = getIntent().getIntExtra("totalPrice", 0);
         String membershipLevel = getIntent().getStringExtra("membershipLevel");
 
